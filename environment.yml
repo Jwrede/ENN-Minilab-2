@@ -1,0 +1,14 @@
+name: enn-minilab
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python>=3.10
+  - jupyterlab  # frontend
+  - ipykernel  # backend
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pytest
